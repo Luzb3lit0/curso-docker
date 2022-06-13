@@ -8,4 +8,4 @@ Crear repositorio en docker hub
 
 Para descargar la imagen:
 
-docker pull luzb3lit0/pingapp:ejercicio02_tag
+ * docker pull luzb3lit0/pingapp:ejercicio02_tag
