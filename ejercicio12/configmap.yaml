@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: jobvacancyconfig
+  labels:
+    app: pingapp
+data:
+  RACK_ENV: "production"
+  PORT: "3000"
+  DATABASE_URL: "postgres://user1:mypass@localhost:5432/db1"
+
